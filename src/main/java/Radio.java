@@ -34,8 +34,9 @@ public class Radio {
         if (currentStation != 9) {
             currentStation++;
             return;
+        } else {
+            currentStation = 0;
         }
-        currentStation = 0;
     }
 
     public void prev() {
